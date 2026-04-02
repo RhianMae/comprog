@@ -26,11 +26,11 @@ if da == db == dc:
 )
 else:
     if da == smallest:
-        print("A", a,
+        print("First Num(A)", a,
 "is the closest to", x)
     if db == smallest:
-        print("B", b,
+        print("Second Num(B)", b,
 "is the closest to", x)
     if dc == smallest:
-        print("C", c,
+        print("Third Num(C)", c,
 "is the closest to", x)
