@@ -1,9 +1,6 @@
-#Simple User Input
-name = input("Enter your name: ")
-age = int(input("Enter your age: "))
+score = 100
 
-print()
-print("Hello, I am", name + "!")
-print("I am", age, "year old.")
-
-
+if score >= 75:
+    print("Passed")
+else:
+    print("Failed")
